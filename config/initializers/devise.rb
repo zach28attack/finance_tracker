@@ -33,6 +33,7 @@ Devise.setup do |config|
   # config.secret_key = '10578fb6c5f5b03eefa16b8a087e2ecdb69bdfe700459320d1a168ed3ebde87089784848d793c5444c7379b078aa00c011c46c435a128c832f468c63d68df723'
 
   config.parent_controller = "TurboDeviseController"
+  config.sign_out_via = :get
   config.navigational_formats = ['*/*', :html, :turbo_stream]
   config.warden do |manager|
     manager.failure_app = TurboFailureApp
