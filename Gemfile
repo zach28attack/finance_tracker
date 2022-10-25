@@ -11,6 +11,7 @@ gem "sprockets-rails"
 
 gem "devise"
 gem 'devise-bootstrap-views', '~> 1.0'
+gem 'iex-ruby-client'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
